@@ -38,8 +38,19 @@ All analyses will be conducted in Python, using MNE-Python for EEG preprocessing
 ### *Study Status*
 *This work is currently in the early implementation phase, with preprocessing and SWS feature extraction pipelines under development and planned extension to NSSR cohorts.*
 
-**Bold**
-*Italic*
+# **Predicted Results**
+It is anticipated that both individuals with Alzheimer’s disease and chronically sleep-deprived participants undergoing recovery sleep will exhibit alterations in slow-wave sleep macro- and microarchitecture relative to healthy, non–sleep-deprived controls. Specifically, increased total SWS duration and elevated delta-band power during SWS are expected in these groups, reflecting compensatory homeostatic mechanisms and altered cortical synchronization.
+
+In sleep-deprived individuals, recovery sleep is expected to be characterized by a rebound in SWS duration and enhanced slow-wave activity, consistent with established models of sleep homeostasis. Similarly, Alzheimer’s disease cohorts are anticipated to show relative increases in delta power within SWS epochs, potentially reflecting network-level dysregulation and compensatory synchronization in the context of neurodegeneration.
+
+Feature-based computational analyses are expected to reveal partial convergence in SWS feature space between Alzheimer’s disease participants and sleep-deprived individuals during recovery sleep, with greater similarity observed between these groups than between healthy controls and either cohort. Such convergence would support the hypothesis that sleep deprivation and Alzheimer’s disease share overlapping slow-wave sleep phenotypes, despite distinct underlying etiologies.
+
+# **Current Status and Immediate Future Plans**
+## *Current Status*
+The analytical pipeline is currently under development. Core preprocessing and slow-wave sleep (SWS) feature extraction modules are in progress, and initial testing has been conducted to ensure compatibility with publicly available polysomnography datasets. Familiarization with dataset structure, metadata, and annotation formats has been completed, providing the foundation for subsequent large-scale analyses.
+
+## *Immediate Future Plans (Next 16 Weeks)*
+Over the next 16 weeks, efforts will focus on finalizing the preprocessing pipeline to ensure consistent signal harmonization and artifact handling across datasets. SWS macro- and microarchitectural feature extraction will be completed for the Sleep-EDF Expanded dataset, serving as the primary validation cohort. Following this, the analytical framework will be extended to larger population-based datasets available through the National Sleep Research Resource, subject to data access approvals. Exploratory computational similarity analyses will then be conducted to assess convergence of slow-wave sleep features between study groups.
 
 
 ```code block```
